@@ -25,3 +25,19 @@ img {
   /* height: 60;
   width: 100% */
 }
+
+img:hover{
+  background-color: blue;
+}
+a:hover{
+  color:Red;
+}
+/***************specific*******************/
+#MyName{
+  color: blue;
+}
+
+/****************common******************/
+.Java{
+  color:Red;
+}
