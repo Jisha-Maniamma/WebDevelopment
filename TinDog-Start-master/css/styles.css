@@ -1,0 +1,184 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "Montserrat";
+}
+p {
+  /* font-size: 1.5rem; */
+  color: #8f8f8f;
+}
+a {
+  font-family: "Montserrat";
+}
+.big_heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+.h2_class{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.Testimonila_text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section_heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.feature_title{
+  font-size: 1.5rem;
+  font-weight: 1000;
+  color: black;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* section */
+
+.coloredSection{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.whiteSection{
+  background-color: #fff;
+}
+
+/*************************/
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+/*************************/
+
+
+.button {
+  outline: Black;
+}
+
+/* navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.6rem;
+}
+
+/* download buttons */
+.downloadButton {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.TitleImage {
+  width: 400px;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+  /* margin: -75px 0 0 -100px; */
+}
+
+/* #testimonials{
+  background-color: #ff4c68;
+} */
+#features {
+  background-color: #fff;
+  /* padding: 7% 15%; */
+  position: relative;
+}
+
+.iconColor {
+  color: #ef8172;
+  /* width: 200px; */
+  margin-bottom: 1rem;
+}
+
+.iconColor:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  /* text-align: center; */
+  padding: 5%;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  /*text-align: center;*/
+
+}
+
+.carousel-item {
+  padding: 7% 25%;
+}
+
+.TestimonialImage {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* press */
+#press {
+  /*text-align: center;*/
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.presLogo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  /*text-align: center;*/
+  padding: 100px;
+}
+
+.pricingColumn {
+  padding: 3% 2%;
+}
+
+/* footerSection cta */
+
+
+
+
+
+.icons1 {
+  margin: 20px 10px;
+}
+
+@media (max-width:1600px) {
+  .TitleImage {
+    transform: rotate(0);
+    position: static;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}

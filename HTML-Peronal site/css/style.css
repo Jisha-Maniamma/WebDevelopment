@@ -1,5 +1,9 @@
+/***tag selctor**/
 body {
   background-color: #EAF6F6;
+  /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 50, 0, 0.5)),
+                  url("images/jisha2.png"); */
+  align-self: center;
 }
 
 hr {
@@ -22,12 +26,13 @@ h3{
 
 img {
   height: 150px;
+  text-align: center;
   /* height: 60;
   width: 100% */
 }
 
 img:hover{
-  background-color: blue;
+  background-color: inherit;
 }
 a:hover{
   color:Red;
@@ -37,7 +42,15 @@ a:hover{
   color: blue;
 }
 
+
 /****************common******************/
 .Java{
   color:Red;
+}
+.Publications{
+  background-color: inherit;
+}
+.bow:hover{
+
+content: url("https://emojipedia-us.s3.amazonaws.com/source/skype/289/woman-bowing_1f647-200d-2640-fe0f.png");
 }

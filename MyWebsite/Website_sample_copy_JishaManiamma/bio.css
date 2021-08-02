@@ -1,0 +1,14 @@
+body{
+  margin: 0;
+  background-color: blue;
+align-self: center;
+}
+.Bio {
+  background-color: Blue;
+  position: relative;
+  padding: 100px;
+
+}
+h3{
+  color: #66BFBF;
+}
