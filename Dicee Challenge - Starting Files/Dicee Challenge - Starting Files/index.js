@@ -15,7 +15,8 @@ document.querySelectorAll("img")[1].setAttribute("src",Image2);
 
 if(RandomNumber1>RandomNumber2){
   document.querySelector("h1").innerHTML="💥💥Player1 Won ❣";
-  document.querySelector("h1").style.color="pink";
+  // document.querySelector("h1").style.color="pink";
+  document.querySelector("h1").classList.add("h1Red");
 }
 else if (RandomNumber1<RandomNumber2) {
     document.querySelector("h1").innerHTML="❣ Player2 Won💥💥";

@@ -13,6 +13,10 @@
 body {
   background-color: #393E46;
 }
+.h1Red{
+color: Red;
+}
+
 
 h1 {
   margin: 30px;
