@@ -48,6 +48,7 @@ function playSound(key){
 
     default:
       alert("what its not the key that will play this!");
+      break;
 
   }
   audio.play();
