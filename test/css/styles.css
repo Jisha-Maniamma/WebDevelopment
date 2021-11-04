@@ -1,0 +1,13 @@
+.gallery{
+  position: relative;
+  overflow: hidden;
+}
+.gallery .movable{
+  display: flex;
+  height: 70vh;
+  transition: transform 0.4s;
+}
+.gallery .movable > div {
+  flex:1;
+  min-width:100%;
+}
